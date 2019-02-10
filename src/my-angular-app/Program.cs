@@ -18,8 +18,7 @@ namespace my_angular_app
             Console.WriteLine("Web application started.");
         }
 
-        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+        public static IWebHostBuilder CreateWebHostBuilder(string[] args) => WebHost.CreateDefaultBuilder(args)
+                                                                                    .UseStartup<Startup>();
     }
 }
