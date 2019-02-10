@@ -14,6 +14,7 @@ namespace my_angular_app
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Web application starting.");
             CreateWebHostBuilder(args).Build().Run();
         }
 
